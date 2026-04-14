@@ -78,6 +78,10 @@
     margin-bottom: 32px;
 }
 
+.mb-50{
+    margin: 50px;
+}
+
 .pt-16 {
     padding-top: 16px;
 }
@@ -195,6 +199,7 @@ body {
     height: 50px;
     background-color: #ccc;
     border-radius: 50%;
+    object-fit: cover;
     /* Rend le bloc rond */
 }
 
