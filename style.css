@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden; /* S'assure que le body prend toute la hauteur de l'écran */
+}
+
 .decoration-none {
     text-decoration: none;
     color: #000;
@@ -140,6 +147,7 @@ body {
     color: #fff;
     border: none;
     padding: 16px 32px;
+    border-radius: 20px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -151,6 +159,7 @@ body {
     color: #000;
     border: 1px solid #000;
     padding: 16px 32px;
+    border-radius: 20px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -207,4 +216,9 @@ body {
 /* Pour le texte à l'intérieur des témoignages */
 .quote-card p {
     line-height: 1.5;
+}
+
+.section-1-bg{
+    background-color: #655649;
+
 }
